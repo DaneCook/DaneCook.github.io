@@ -1,8 +1,8 @@
 //Styles for general sections
 
 @keyframes example {
-    from {opacity: 0;}
-    to {opacity: 1;}
+  from {opacity: 0;}
+  to {opacity: 1;}
 }
 
 .jumbotron {
@@ -40,11 +40,18 @@
 
 
 .parallax {
-  background-image:url("../images/rsz_mountainlandscape.jpg");
+  background-image:url("../images/rsz_1rsz_mountainlandscape.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  @include breakpoint-tablet{
+    background-image:url("../images/rsz_mountainlandscape.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 
 
@@ -152,7 +159,6 @@
     justify-content: space-around;
     align-items: center;
   }
-  width: 50%;
   text-align: center;
   margin: 50px auto;
   padding-top: 40px;

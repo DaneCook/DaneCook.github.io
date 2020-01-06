@@ -81,11 +81,20 @@ h3 {
 }
 
 .parallax {
-  background-image: url("../images/rsz_mountainlandscape.jpg");
+  background-image: url("../images/rsz_1rsz_mountainlandscape.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+@media (min-width: 768px) {
+  .parallax {
+    background-image: url("../images/rsz_mountainlandscape.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 
 @keyframes bounce-2 {
@@ -192,7 +201,6 @@ h3 {
 }
 
 .contact-icons {
-  width: 50%;
   text-align: center;
   margin: 50px auto;
   padding-top: 40px;
