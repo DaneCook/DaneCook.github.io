@@ -1,0 +1,37 @@
+// Styles for Navigation links
+
+.navbar-brand {
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+.nav-item {
+  transition: letter-spacing 1s ease;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+.nav-item:hover {
+  letter-spacing: .5px;
+  text-decoration: underline;
+}
+
+.a-first {
+  animation-name: example;
+  animation-duration: 6s;
+}
+
+.a-second {
+  animation-name: example;
+  animation-duration: 8s;
+}
+
+.a-third {
+  animation-name: example;
+  animation-duration: 10s;
+}
+
+.a-fourth {
+  animation-name: example;
+  animation-duration: 12s;
+}

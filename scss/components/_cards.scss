@@ -1,0 +1,87 @@
+// Styles for project cards
+
+.portfolio {
+  color: white;
+  background-color: $color-background-primary;
+  padding: 20px 0px 50px;
+}
+
+.card {
+  color: white;
+  background-color: $color-background-primary;
+}
+
+.card {
+  margin: 50px auto;
+  border: 2px lightgrey solid;
+  width: 90%;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: white;
+  color: black;
+  box-shadow: 2px 4px 4px #888888;
+  @include breakpoint-tablet {
+    width: 75%;
+  }
+}
+
+.card-buttons {
+  text-align: center;
+  a {
+    transition: letter-spacing 1s ease;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.card-buttons a:hover {
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.button {
+  padding: 10px 15px;
+  border: 1px solid $color-background-primary;
+  border-radius: 20px;
+  transition: color 1s ease;
+  transition: background-color .5s ease;
+}
+
+.button:hover {
+  color: white;
+  background-color: $color-background-primary;
+}
+
+.project-1,
+.project-2,
+.project-3,
+.project-4,
+.project-5 {
+  opacity: 0;
+  transition: opacity 2s;
+}
+
+.project-1.visible {
+  opacity: 1;
+}
+
+.project-2.visible {
+  opacity: 1;
+}
+
+.project-3.visible {
+  opacity: 1;
+}
+
+.project-4.visible {
+  opacity: 1;
+}
+
+.project-5.visible {
+  opacity: 1;
+}
+
+.project-5 {
+  margin-bottom: 0;
+}
