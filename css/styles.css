@@ -81,22 +81,12 @@ h3 {
 }
 
 .parallax {
-  background-image: url("../images/rsz_mountainlandscape.jpg");
+  background-image: url("../images/rsz_rsz_mountainlandscape.png");
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: black;
-}
-@media (min-width: 768px) {
-  .parallax {
-    background-image: url("../images/rsz_11rsz_mountainlandscape.jpg");
-    background-attachment: fixed;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: black;
-  }
 }
 
 @keyframes bounce-2 {
