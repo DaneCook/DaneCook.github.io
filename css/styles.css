@@ -81,16 +81,16 @@ h3 {
 }
 
 .parallax {
-  background-image: url("../images/1500x900mountain.png");
+  background-image: url("../images/rsz_1rsz_11rsz_mountainlandscape.jpg");
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: 375px 375px;
+  background-size: cover;
   background-color: black;
 }
 @media (min-width: 768px) {
   .parallax {
-    background-image: url("../images/1500x900mountain.png");
+    background-image: url("../images/rsz_11rsz_mountainlandscape.jpg");
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
