@@ -81,7 +81,7 @@ h3 {
 }
 
 .parallax {
-  background-image: url("../images/rsz_rsz_mountainlandscape.png");
+  background-image: url("../images/1500x900mountain.png");
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
@@ -89,6 +89,12 @@ h3 {
   background-color: black;
 }
 
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .parallax {
+    background: url("3000x1800mountain.png") no-repeat center center cover;
+    background-size: cover;
+  }
+}
 @keyframes bounce-2 {
   0% {
     transform: translateY(0);
