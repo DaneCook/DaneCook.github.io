@@ -44,18 +44,18 @@
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 375px 375px;
   background-color: black;
+  @include breakpoint-tablet {
+    background-image:url("../images/1500x900mountain.png");
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+  }
 }
 
-@media (-webkit-min-device-pixel-ratio: 2),
-(min-resolution: 192dpi) {
-
-    .parallax{
-      background:url('3000x1800mountain.png') no-repeat center center cover;
-      background-size: cover;
-    }
-}
 
 
 @keyframes bounce-2 {
